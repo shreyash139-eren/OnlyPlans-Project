@@ -165,6 +165,7 @@ import Navbar from "./Navbar";
 import axios from "axios";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 
 export default function Todo() {
   const [task, setTask] = useState("");
@@ -179,7 +180,7 @@ export default function Todo() {
 
    useEffect(() => {
           if (!email) {
-            navigate("/login");
+            navigate("/");
           }
         }, [email, navigate]); 
 
@@ -352,7 +353,7 @@ export default function Todo() {
           )}
         </div>
 
-        <div className="fixed bottom-6 right-6">
+        <div className="fixed bottom-8 right-8 z-50">
           <button
             onClick={() => setFormVisible(true)}
             className="bg-white text-purple-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-purple-100 transition duration-300 animate-bounce cursor-pointer"
@@ -389,6 +390,7 @@ export default function Todo() {
           </div>
         )}
       </div>
+      <Footer/>
     </>
   );
 }

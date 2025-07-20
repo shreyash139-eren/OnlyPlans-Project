@@ -82,7 +82,14 @@ export default function Signup() {
 
   return (
     <>
-    <Link to={"/"}>OnlyPlans</Link>
+     <div className="flex items-center gap-2">
+          <img
+            className="w-10 h-10 rounded-full"
+            src="https://t3.ftcdn.net/jpg/04/23/99/16/360_F_423991638_z7R0pjvAiGnBhkwlD4prkrmqXA6oti1i.jpg"
+            alt="Logo"
+          />
+          <Link to={"/"} className="text-xl font-bold text-indigo-600">OnlyPlans</Link>
+        </div>
     <div className="h-screen w-full flex bg-[#f5f6f8] p-8">
       {/* Left Panel - Signup Form */}
       <div className="w-full md:w-1/2 flex justify-center items-center px-6">

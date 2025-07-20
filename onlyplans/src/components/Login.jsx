@@ -82,7 +82,14 @@ export default function Login() {
 
   return (
     <>
-    <Link to={"/"}>OnlyPlans</Link>
+     <div className="flex items-center gap-2">
+          <img
+            className="w-10 h-10 rounded-full"
+            src="https://t3.ftcdn.net/jpg/04/23/99/16/360_F_423991638_z7R0pjvAiGnBhkwlD4prkrmqXA6oti1i.jpg"
+            alt="Logo"
+          />
+          <Link to={"/"} className="text-xl font-bold text-indigo-600">OnlyPlans</Link>
+        </div>
     <div className="h-screen w-full flex bg-[#f5f6f8] p-8">
       {/* Left Panel */}
       <div className="hidden md:flex flex-col justify-center items-center w-1/2 bg-white border-r p-8">
@@ -95,8 +102,8 @@ export default function Login() {
           Welcome Back!
         </h2>
         <p className="text-gray-600 text-center max-w-sm">
-          Access your personalized dashboard and stay connected with your
-          projects. Log in now to continue your journey with us.
+          Access your personalized dashboard and manage your plans effortlessly. 
+          Log in now to continue your journey with us.
         </p>
       </div>
 
