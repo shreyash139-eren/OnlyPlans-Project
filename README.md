@@ -34,21 +34,21 @@ OnlyPlans is a comprehensive digital productivity and wellness platform built wi
 ## 📸 Screenshots
 
     Home/Dashboard
-    ![Home](./src/assets/home.png)
+    ![Home](/onlyplans/src/assets/home.png)
     
     Journal Page
-    ![Daily Journal](./src/assets/dailyJ.png)
+    ![Daily Journal](/onlyplans/src/assets/dailyJ.png)
     
     Mental Health Charts
-    ![Mood Tracker](./src/assets/mood.png)
-    ![Mood Tracker Visual Representation](./src/assets/graph.png)
+    ![Mood Tracker](/onlyplans/src/assets/mood.png)
+    ![Mood Tracker Visual Representation](/onlyplans/src/assets/graph.png)
     
     Habit Tracker View
-    ![Habit-Tracker](./src/assets/habit.png)
-    ![Habit](./src/assets/habit1.png)
+    ![Habit-Tracker](/onlyplans/src/assets/habit.png)
+    ![Habit](/onlyplans/src/assets/habit1.png)
     
     To-Do List Interface
-    ![To-Do](./src/assets/todo.png)
+    ![To-Do](/onlyplans/src/assets/todo.png)
 
 
 ## Live Link
