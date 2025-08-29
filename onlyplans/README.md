@@ -1,54 +1,58 @@
-## 🌱 Habit-Hole
+🧠 OnlyPlans – Your All-in-One Digital Planner
 
-Habit-Hole is a responsive and feature-rich habit tracker designed to help users build and maintain healthy routines. With real-time tracking, community challenges, a reward system, and focus tools, the app offers a complete experience to support personal growth and productivity.
+OnlyPlans is a comprehensive digital productivity and wellness platform built with React.js and Firebase. It combines a habit tracker, to-do list, daily journal, and a mental health tracker into one clean, responsive interface — helping users manage their routines and mental well-being seamlessly.
 
-## 📌 Features
+🚀 Features
 
-🔐 Authentication using Firebase (Login & Signup)
+    🧘 Mental Health Tracker – Reflect your mood daily and visualize trends with charts
 
-📊 Dashboard to manage daily habits
+    📓 Daily Journal – Log thoughts and activities with a rich-text journaling section
 
-🏆 Reward System – Earn coins for completing streaks and redeem for fun perks
+    ✅ To-Do List – Manage tasks with priority settings and drag and drop feature
 
-⏳ Focus Timer – Stay productive with a built-in timer and focus music
+    📈 Habit Tracker – Build and monitor positive habits over time
 
-🌍 Community Challenges – Join habit challenges and compete for grand prizes
+    📊 Visual Analytics – Chart.js-powered insights for mood, habit streaks, and progress
 
-🎨 Responsive UI – Clean design with custom animations
+    🔐 Firebase Authentication – Secure signup/login using Firebase Auth
 
-☁️ Data Persistence – Firebase backend with localStorage fallback for offline usage
+    ☁️ Cloud Storage – All user data is stored and synced in Firebase Realtime Database
 
-🌙 Dark/Light Mode – Theme preference saved using localStorage
+    🎨 Responsive UI – Designed for both desktop and mobile users
 
 
-## 🚀 Tech Stack
+| Category               | Technologies                          |
+| ---------------------- | ------------------------------------- |
+| **Frontend**           | React.js, CSS (or Tailwind if used)   |
+| **Backend / Auth**     | Firebase Authentication & Realtime DB |
+| **Data Visualization** | Chart.js                              |
+| **Deployment**         | Netlify / Vercel (if applicable)      |
 
-Frontend: HTML, CSS, JavaScript
-
-Backend & Auth: Firebase
-
-State & Storage: localStorage, Firebase Realtime DB
 
 📸 Screenshots
 
-Add screenshots or demo GIFs here for each key section:
+Home/Dashboard
+![Home](./src/assets/home.png)
 
-Login/Signup
-![Login Page](./assets/login.png)
+Journal Page
+![Daily Journal](./src/assets/dailyJ.png)
 
-Dashboard
-![Dashboard](./assets/addingHabbit.png)
+Mental Health Charts
+![Mood Tracker](./src/assets/mood.png)
+![Mood Tracker Visual Representation](./src/assets/graph.png)
 
+Habit Tracker View
+![Habit-Tracker](./src/assets/habit.png)
+![Habit](./src/assets/habit1.png)
 
-Reward system
-![Rewards](./assets/arewards.png)
+To-Do List Interface
+![To-Do](./src/assets/todo.png)
 
-
-Focus Timer
-![Focus Timer](./assets/focusTimer.png)
 
 ## Live Link
-https://habit-hole.netlify.app/ 
+
+    https://only-plans.netlify.app/
 
 ## Github
-https://github.com/shreyash139-eren/Habit-Tracker
+    
+    https://github.com/shreyash139-eren/OnlyPlans-Project
